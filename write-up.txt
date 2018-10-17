@@ -1,0 +1,6 @@
+1. Perlu diinisiasi karena sebuah penerbangan membutuhkan seorang pilot. Dan pilot tersebut pasti akan benar karena bila penerbangan yang ada di dalam kode sama dengan penerbangan di database, maka pilotnya pasti juga akan sama.
+2. Maka test tidak akan berjalan dengan baik karena sebuah penerbangan membutuhkan sebuah pilot.
+3. Ketika flightDB menemukan flight dengan id, Mockito akan menggunakan "return" yaitu variable flight.
+4. Ketika flightService menemukan flight dengan id, Mockito akan menggunakan "return" yaitu variable flight.
+5. Menurut dokumentasi, mvc akan melakukan sebuah "expectation" di mana dia mengira bahwa hasil dari proses sebelumnya itu "ok"
+6. Menjelaskan bahwa return dari sebuah method harus dimasukkan ke dalam response body.
