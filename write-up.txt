@@ -3,4 +3,5 @@
 3. Ketika flightDB menemukan flight dengan id, Mockito akan menggunakan "return" yaitu variable flight.
 4. Ketika flightService menemukan flight dengan id, Mockito akan menggunakan "return" yaitu variable flight.
 5. Menurut dokumentasi, mvc akan melakukan sebuah "expectation" di mana dia mengira bahwa hasil dari proses sebelumnya itu "ok"
-6. Menjelaskan bahwa return dari sebuah method harus dimasukkan ke dalam response body.
+6. json yang memiliki atribut flightNumber akan disamakan dengan flightnumber yang tersedia.
+7. Menjelaskan bahwa return dari sebuah method harus dimasukkan ke dalam response body.
